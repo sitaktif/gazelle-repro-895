@@ -1,4 +1,4 @@
-module github.com/example/project
+module github.com/example/root-workspace
 
 go 1.14
 

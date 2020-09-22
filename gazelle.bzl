@@ -3,7 +3,7 @@ load("@bazel_gazelle//:deps.bzl", "go_repository")
 def go_deps_local():
     go_repository(
         name = "in_gopkg_check_v1",
-        build_file_proto_mode = "disable_global",  # Added manually
+        build_file_proto_mode = "disable_global",  # keep
         importpath = "gopkg.in/check.v1",
         sum = "h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=",
         version = "v0.0.0-20161208181325-20d25e280405",
